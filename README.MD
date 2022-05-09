@@ -16,13 +16,11 @@ Atmosphere pressure --- analog sensor <br />
 ### Capacitive Touchable Screen - RA8875(800 x 480) from Buydisplay.com <br />
 ### State Machine fields: <br />
 ### STATE: STDB --- to turn off the power <br />
-       AUTO --- to run automatically <br />
-       MANM --- to allow manual adjust of SP and DP3 <br />
-       VENT --- to allow manual adjust of DP3 <br />
-       TEST --- to allow manual adjust of all sensors and outputs, meanwhile suspend the auto update function <br />
+       AUTO --- to run automatically
+       MANM --- to allow manual adjust of SP and DP3
+       VENT --- to allow manual adjust of DP3
+       TEST --- to allow manual adjust of all sensors and outputs, meanwhile suspend the auto update function
 ### SP: a set_point as the formula's coefficient <br />
- <br />
- 
 ### Display System <br />
 One button for each state. Press the button to swtitch to the state.
 Several groups of toggles for certain states. One group of toggles show only when the state they belong to is on. <br />
